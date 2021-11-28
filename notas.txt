@@ -6,4 +6,8 @@ pip freeze
 touch requirements.txt
 pip install -r requirements.txt
 
+# Agregar la variable para la ejecucion
+export FLASK_APP=main.py
+echo $FLASK_APP
 flask run
+
