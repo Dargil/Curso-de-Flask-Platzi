@@ -1,0 +1,9 @@
+virtualenv -p python3 env
+source env/bin/activate
+	deativate
+pip install flask
+pip freeze
+touch requirements.txt
+pip install -r requirements.txt
+
+flask run
