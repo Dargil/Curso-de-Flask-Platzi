@@ -2,7 +2,7 @@ from flask import Flask,request, make_response,redirect, render_template
 
 # el nombre de la aplicacion es el nombre del archivo que se llama main.py
 app = Flask(__name__)
-todos = ['TODO 1', 'TODO 2', 'TODO 3']
+todos = ['Comprar cafe', 'Enviar solicitud de compra', 'Entregar video a productor']
 @app.route('/')
 def index():
     user_ip = request.remote_addr
