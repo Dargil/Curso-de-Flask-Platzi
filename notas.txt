@@ -11,3 +11,7 @@ export FLASK_APP=main.py
 echo $FLASK_APP
 flask run
 
+# Habilitrar el debug flask
+export FLASK_DEBUG=1
+echo $FLASK_DEBUG
+
